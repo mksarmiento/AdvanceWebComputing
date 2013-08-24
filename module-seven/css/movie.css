@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+.movie_container{
+	width: 100;
+	margin: 0 auto;
+}
+#movie{
+	margin-left: 20%;
+}
+.movie_holder{
+	width: 900px;
+	height: 200px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.con{
+	background:url(../img/bac.png);
+	width: 100%;
+}
+.thumb{
+	width: 125px;
+	float: left;
+	background-color: #bb4;
+	height: 200px;
+	border-radius: 10px 0 0 10px;
+}
+.title{
+	width: 575px;
+	float: left;
+	background-color: #cc4;
+	height: 200px;
+}
+.year{
+	width: 200px;
+	float: left;
+	height: 200px;
+	background-color: #dd4;
+    border-radius: 0 10px 10px 0;
+	
+}
+.movie_holder img{
+
+	height: 175px;
+    margin: 0 auto;
+    padding: 12px 12px 32px;
+    width: 99px;
+}
+.movie_title{
+	font-size: 20px;
+	font-style: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+.synopsis{
+	font-size: 14px;
+    height: 120px;
+    margin: 0 auto;
+    font-style: italic;
+    overflow: hidden;
+    text-align: justify;
+    width: 500px;
+	
+}
+.year p{
+	font-size: 24px;
+	   padding: 74px 35px 35px;
+	
+}
+#result{
+	width: 1000px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#resultleft{
+	width: 665px;
+	float: left;
+	font-size: 25px;
+}
+#resultright{
+	width: 335px;
+	float: left;
+	font-size: 25px;
+}
+#movie{
+	font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+    height: 25px;
+    text-align: center;
+    width: 820px;
+}
+#send{
+	margin-top: -10px;
+
+}
+
